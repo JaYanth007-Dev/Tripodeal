@@ -1,0 +1,829 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+.downFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0px;
+  background: #181818;
+  row-gap: 30px;
+}
+.userInfo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#username {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  background: #222222;
+  color: white;
+}
+.footer-column1 h6 {
+  color: #ff512f;
+}
+.footer-column1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.footer p:hover {
+  color: #ff512f;
+}
+.Footericons :hover {
+  color: #1f406f;
+}
+.searchBox {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.432);
+
+  border-radius: 10px;
+}
+.second-part {
+  display: flex;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.findBox {
+  width: 140px;
+  color: white;
+  padding: 6px;
+
+  text-align: center;
+  background-color: #1f406f;
+}
+.HomeBody {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.tripBox {
+  border: 1px solid rgb(244, 151, 151);
+  width: 140px;
+  padding: 5px 10px;
+  column-gap: 10px;
+  display: flex;
+}
+#navbar a{
+  color: gray;
+}
+#navbar {
+  display: flex;
+  column-gap: 20px;
+  font-weight: 700;
+  font-family: arial, sans-serif;
+  color: gray;
+  font-size: 15px;
+  text-decoration: none;
+}
+a:hover {
+  color: #3b3b3b;
+}
+#navbar a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: rgb(4, 115, 243);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+#navbar a:hover::after {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.firstFooter {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0px;
+}
+.dd {
+  width: 500px;
+  background-color: #000;
+}
+.LoginDropdown {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.LoginDropdown:hover {
+  color: #3b3b3b;
+}
+
+.search-part {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0px;
+  justify-content: space-evenly;
+  background-color: #3f80de;
+  width: 100vw;
+}
+.trip {
+  display: flex;
+  column-gap: 10px;
+  padding: 1rem;
+}
+.tripBox:hover {
+  background-color: gray;
+}
+.form-floating {
+  width: 330px;
+}
+.fromBox {
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+  align-items: center;
+}
+.dates {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 15px 50px;
+}
+#dateInput {
+  padding: 10px 10px;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+}
+.travellerSelector {
+  width: 300px;
+}
+.SrcButton {
+  display: flex;
+  justify-content: center;
+}
+#searchButton {
+  padding: 7px 60px;
+  margin: 10px 0px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  margin: 10px;
+  padding: 6px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.ChangeButton {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Login */
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+.loginBtn {
+  display: flex;
+  justify-content: center;
+}
+.LoginBox {
+  width: 400px;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  row-gap: 10px;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.LoginBox > p {
+  text-align: center;
+}
+.LoginPage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  background-color: #3f80de;
+  width: 100vw;
+}
+.socialIcons {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+/* Unavailable Page */
+
+.unavailableServices {
+  text-align: center;
+  padding: 5rem 0px;
+}
+
+/* Top Values */
+
+.TopValues {
+  display: flex;
+  padding: 2rem 0px;
+  background-color: #f9f4f4;
+  flex-direction: column;
+}
+.topValuesHeading {
+  display: flex;
+  padding: 20px 0px;
+  flex-direction: column;
+  row-gap: 1rem;
+  text-align: center;
+}
+.topValuesHeading span {
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.carousal {
+  padding-top: 3rem;
+}
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  row-gap: 10px;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+/* Destinations */
+
+.Destinations {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  column-gap: 20px;
+}
+.DestinationContainer {
+  display: flex;
+  flex-direction: column;
+}
+.DestinationContainer h5 {
+  padding: 2rem 0px 0px 5rem;
+}
+#destHeading {
+  font-weight: 700;
+  color: #3f80de;
+}
+.destinationColumn1,
+.destinationColumn3,
+.destinationColumn2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+  text-align: center;
+}
+.Destinations p {
+  font-weight: bold;
+}
+.Destinations span {
+  font-weight: 400;
+}
+
+/* Tickets */
+
+.Tickets {
+  display: flex;
+  padding: 2rem 0px;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+.Tickets h5 {
+  color: #212529;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+#stores {
+  border: 1px solid black;
+  padding: 10px 20px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* Flight Page */
+
+.FlightContainer {
+  background-color: #3f80de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0px;
+}
+.flightCard {
+  display: grid;
+  padding: 0px 0px 0px 5rem ;
+  row-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 10fr));
+}
+.BookingBox {
+  width: auto;
+  color: white;
+  padding: 6px;
+  margin-bottom: 2rem;
+  text-align: center;
+  background-color: #1f406f;
+}
+
+/* Error Message */
+
+.errorMessage {
+  font-size: 13px;
+  color: red;
+}
+
+/* Calender */
+.CalenderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0px;
+}
+
+/* Accodian */
+
+.accordion {
+  width: 300px;
+}
+
+.stopsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.stops {
+  display: flex;
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.airlines {
+  display: flex;
+  justify-content: space-between;
+}
+.airlines input {
+  border: 1px solid black;
+}
+
+/*Calender Slider */
+.CalenderSlider {
+  width: 800px;
+  height: 80px;
+}
+
+.calenderCard {
+  width: 120px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  background-color: white;
+}
+.calenderCard:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.CalenderSlider .heading {
+  padding-top: 15px;
+  color: gray;
+}
+.CalenderSlider .price {
+  color: green;
+}
+
+/* Flights Selection Page */
+
+.flightsSelection {
+  display: flex;
+  background-color: #3f80de;
+  padding: 1.3rem 3rem;
+  gap: 2rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f80de;
+  padding: 10px 3rem;
+}
+.flightsSelectionCol2 {
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Discount Card */
+
+.discountCard {
+  display: flex;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.discountCard li {
+  list-style-type: none;
+  width: 266.7px;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #0056b3;
+}
+.discountCard li:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Flight Card */
+
+.flightDetailsCard {
+  background-color: #fff;
+  margin: 1rem 0px;
+  height: auto;
+  display: flex;
+  border-radius: 8px;
+}
+
+#controlled-tab-example {
+  width: 1000px;
+}
+.dropdown-menu show {
+  width: 750px;
+}
+.box {
+  width: auto;
+  height: 100px;
+}
+.box h6 {
+  color: #0056b3;
+}
+.FlightDetailsCardLeftPart {
+  width: 650px;
+}
+.FlightDetailsCardLeftPartAccordion {
+  width: 150px;
+}
+.FlightDetailsCardRightPart {
+  padding: 1rem 0px;
+}
+.FlightDetailsCardRightPart-Row1 {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+.flightTimings {
+  display: flex;
+  width: 550px;
+  padding: 0px 1rem;
+  justify-content: space-between;
+}
+
+/* Booking Page */
+
+.BookingContainer {
+  display: flex;
+  background-color: #3f80de;
+  flex-direction: column;
+}
+.BookingLeftPart {
+  width: 75%;
+}
+.BookingRightPart {
+  width: 25%;
+}
+
+.defaultButton {
+  background-color: #0056b3;
+  color: white;
+  border-radius: 10px;
+  cursor: none;
+}
+
+.flightDetailsBox {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.userDetailsContainer {
+  width: 875px;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+.userDetails {
+  width: 875px;
+  display: flex;
+  padding: 10px 0px;
+  background: white;
+  height: auto;
+  justify-content: space-around;
+}
+.addPassengerBtn {
+  float: right;
+  width: 120px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+  color: white;
+}
+.saveBtn {
+  background-color: #0056b3;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.TicketPriceBox {
+  width: 875px;
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border: 1px solid white;
+  background-color: #28a745;
+  color: white;
+}
+.PaymentButton {
+  width: 875px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0px;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.bookingPageHeadings {
+  width: 875px;
+}
+
+/* Not found Page */
+
+.notFoundpage {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  background-color: #fff;
+}
+
+/* Price Card */
+
+.flight-fare {
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+
+  background-color: #fff;
+  font-size: 16px;
+}
+.priceCard {
+  background-color: #3f80de;
+  min-width: 250px;
+  position: sticky;
+  top: 20px;
+  max-width: 280px;
+}
+.line {
+  width: auto;
+  height: 1px;
+  margin: 10px 0px;
+  background-color: rgb(199, 192, 192);
+}
+.priceCardRows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Payment Page */
+.paymentContainer {
+  background-color: #3f80de;
+}
+.paymentBoxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.paymentBox {
+  width: 800px;
+  color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: #fff;
+}
+.paymentOptionsBox {
+  width: 800px;
+  padding: 10px 0px;
+}
+.paymentCustomerBox {
+  padding: 4px 20px;
+  background-color: #ffd9d1;
+}
+.paymentPassengerBox {
+  color: #619eb7;
+  padding: 5px 10px;
+  background-color: #b5ecff;
+  font-size: 15px;
+}
+.paymentOptionsBox > h5,
+h4 {
+  color: #000;
+  text-align: center;
+  padding: 1rem 0px;
+  background-color: white;
+}
+.payNowBtn {
+  width: 800px;
+  padding: 13px 0px;
+  font-size: 15px;
+  font-weight: 800;
+  color: white;
+  border-radius: 7px;
+  background-color: rgb(135, 207, 102);
+}
+
+/* Flight Card */
+.detailsCard {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ffd9d1;
+}
+.detailsCardRegularDeal {
+  background-color: blue;
+  width: 100px;
+  padding: 3px 8px;
+  color: white;
+  border-radius: 13px;
+}
+
+/* Counter */
+.counter {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  color: #28a745;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 8px 0px;
+  position: sticky;
+  top: 0px;
+  gap: 5px;
+  z-index: 10;
+}
+
+/* Captcha */
+.recaptcha {
+  visibility: hidden;
+}
+
+.rbt-input-main {
+  padding: 15px 1rem;
+}
+
+
+/* My Bookings */
+
+.myBookingsContainer{
+  padding: 4rem 3rem;
+}
+.myBookingsBox{
+  width: 800px; 
+  box-shadow: 0px 5px 15px rgba(62, 61, 61, 0.8);
+  padding: 10px 30px;
+  border-radius: 10px;
+  
+}
+.loginRequiredBox{
+  margin-top: -60px;
+}
+.tabs{
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(62, 61, 61, 0.8);
+  padding-top: 1rem;
+  height: 300px;
+}
+.tabs2{
+  display: flex;
+  justify-content: center;
+
+}
+.emailInput{
+  width: 710px;
+}
+
+
+
+.MuiAvatar-root{
+  padding: 2rem;
+}
+
+.cc{
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 108px;
+ }
+
+
+ /* bookingHistoryCard */
+
+ .bookingHistoryCard{
+    width: 800px;
+    height: 120px;
+    margin-bottom: 1.5rem;
+    
+   
+  box-shadow: 0 0 20px #d5d2d2;
+    /* border-radius: 20px; */
+    /* border: 1px solid red; */
+ }
+ .bookingDetailsCard{
+  width: 830px;
+ }
+.ticketCancelBtn{
+  background-color: red;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  color: white;
+}
+.viewPassengersBtn{
+  padding: 6px 10px;
+  font-size: 12px;
+  background-color: rgb(17, 0, 255);
+  color: white;
+  border-radius: 10px;
+
+}

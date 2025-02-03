@@ -1,0 +1,24 @@
+.accordion-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-button.open {
+    transform: rotate(45deg);
+  }
+  
+  .accordion-content {
+    display: none;
+  }
+  
+  .accordion-content.open {
+    display: block;
+  }
+  
